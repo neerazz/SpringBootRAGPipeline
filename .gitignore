@@ -1,0 +1,15 @@
+# Maven build
+/target/
+
+# Maven wrapper binary
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs and temp files
+*.log
+
+# IDE files
+.idea/
+*.iml
+
+# OS specific
+.DS_Store

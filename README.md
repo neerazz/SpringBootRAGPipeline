@@ -48,9 +48,12 @@ curl http://localhost:8080/api/health
 ```
 
 ## Project Structure
-- `src/main/resources/docs/` - Place your markdown documents here
-- `src/main/resources/prompts/` - Prompt templates
 - The vector store is populated on startup with all `.md` files
+- `src/main/resources/docs/` - Place your markdown documents here. The project
+  includes sample files such as `security-policy.md`,
+  `vulnerability-management.md`, `incident-response.md`,
+  `acceptable-use-policy.md`, and `network-security-guidelines.md`.
+- `src/main/resources/prompts/` - Prompt templates
 
 ## Customization
 
